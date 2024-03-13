@@ -26,8 +26,8 @@ section{
     justify-content: center;
 }
 
-.card-img-top{
-    
+.img-card{
+    height: 250px;    
     object-fit: cover;
 }
 nav:hover{
