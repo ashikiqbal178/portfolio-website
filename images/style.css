@@ -1,0 +1,47 @@
+::-webkit-scrollbar{
+    display: none;
+}
+:root{
+    --app-magenta-color:rgb(81, 2, 2);
+}
+.bg-magenta{
+    color:var(--app-magenta-color);
+}
+
+.nav-link{
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.nav-link:hover{
+    background-color: aliceblue;
+    color: black;
+}
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img-top{
+    
+    object-fit: cover;
+}
+nav:hover{
+    background-color: rgb(226, 200, 200);
+    color: #000;
+
+}
+
+@media (max-width:990px) {
+    section{
+        height: fit-content;
+        padding: 30px 0px;
+    }   
+    .col-lg-4,.col-lg-6{
+        margin: 20px 0px;
+    }
+}
